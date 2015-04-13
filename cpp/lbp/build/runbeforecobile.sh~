@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm lbp
+cmake ..
+make
+./lbp $1 $2

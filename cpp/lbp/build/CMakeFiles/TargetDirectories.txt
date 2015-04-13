@@ -1,0 +1,1 @@
+/home/jobin/docSegmentation/cpp/lbp/build/CMakeFiles/docSeg.dir

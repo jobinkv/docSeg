@@ -1,0 +1,6 @@
+PROJECT(githublbp)
+SET(CMAKE_BUILD_TYPE Release)
+CMAKE_MINIMUM_REQUIRED( VERSION 2.6 )
+FIND_PACKAGE( OpenCV REQUIRED )
+ADD_EXECUTABLE(docSeg main.cpp lbp.cpp histogram.cpp GCoptimization.cpp LinkedBlockList.cpp)
+TARGET_LINK_LIBRARIES(docSeg ${OpenCV_LIBS})
